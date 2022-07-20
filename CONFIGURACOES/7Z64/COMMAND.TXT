@@ -1,0 +1,78 @@
+7Z.EXE a S:\ARQUIVOS_TEMPORARIOS\FAT_IMP_A3FNN#68909\FAT_IMP_A3FNN#68909$OC.7Z S:\ARQUIVOS_TEMPORARIOS\FAT_IMP_A3FNN#68909\FAT_IMP_A3FNN#68909$OC.AFP -sdel
+
+
+Command Line Version User's Guide
+---------------------------------
+7z.exe is the command line version of 7-Zip. 7z.exe uses 7z.dll from the 7-Zip package. 7z.dll is used by the 7-Zip File Manager also. 
+7za.exe (a = alone) is a standalone version of 7-Zip. 7za.exe supports only 7z, lzma, cab, zip, gzip, bzip2, Z and tar formats. 7za.exe doesn't use external modules. 
+
+
+
+
+Commands quick reference
+------------------------
+Command Description 
+------- -----------
+a Add 
+b Benchmark 
+d Delete 
+e Extract 
+h Hash 
+i Show information about supported formats 
+l List 
+rn Rename 
+t Test 
+u Update 
+x eXtract with full paths 
+
+
+Switch quick reference
+----------------------
+Switch Description 
+------ -----------
+-- Stop switches parsing 
+-ad Show dialog box in GUI version (7zg) 
+-ai Include archive filenames 
+-an Disable parsing of archive_name 
+-ao Overwrite mode 
+-ax Exclude archive filenames 
+-bb[0-3]  Set output log level 
+-bd Disable progress indicator 
+-bs{o|e|p}{0|1|2}  Set output stream for output/error/progress 
+-bt Show execution time statistics 
+-i Include filenames 
+-m Set Compression Method 
+-o Set Output directory 
+-p Set Password 
+-r Recurse subdirectories 
+-sa  Set Archive name mode  
+-scc  Set charset for for console input/output  
+-scrc Set hash function 
+-scs Set charset for list files 
+-sdel  Delete files after including to archive  
+-seml Send archive by email 
+-sfx Create SFX archive 
+-si Read data from StdIn 
+-slp Set Large Pages mode 
+-slt Show technical information 
+-sni  Store NT security information  
+-sns  Store NTFS alternate Streams  
+-snc Extract file as alternate stream, if there is ':' character in name  
+-snr Replace ':' character to '_' character in paths of alternate streams  
+-snh Store hard links as links (WIM and TAR formats only)  
+-snl Store symbolic links as links (WIM and TAR formats only)  
+-so Write data to StdOut 
+-spd Disable wildcard matching for file names 
+-spe Eliminate duplication of root folder for extract archive command 
+-spf  Use fully qualified file paths  
+-ssc Set Sensitive Case mode 
+-ssw Compress files open for writing 
+-stl Set archive timestamp from the most recently modified file 
+-stm{HexMask} Set CPU thread affinity mask (hexadecimal number). 
+-stx{Type} Exclude archive type  
+-t Type of archive 
+-u Update options 
+-v Create Volumes 
+-w Set Working directory 
+-x Exclude filenames 
+-y Assume Yes on all queries 
